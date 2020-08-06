@@ -3,7 +3,7 @@
     font-size: 22px;
   }
 
-/*-- Side Text Padding --*/
+/*-- Side Text --*/
 #side-text {
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   line-height: 1.8
@@ -58,3 +58,27 @@
   transform: rotateY(180deg);
 }
 
+/* Horizontally Scrolled Games */
+#games {
+  display: flex;
+  overflow-x: auto;
+}
+
+#games img {
+  margin-right: 15px;
+  height: 200px;
+}
+
+#games::-webkit-scrollbar {
+  display: none;
+}
+
+/* Description Text */
+#description-text {
+  line-height: 1.8;
+}
+
+/* Gaming Section Titles Text */
+#pc-title-text {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}

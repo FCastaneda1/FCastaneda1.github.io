@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Gaming PC</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar fixed-top navbar-expand-sm bg-light"> 
+    <!-- Name and Home Page Link -->
+    <div class="d-flex w-50 order-0">
+        <a class="navbar-brand mr-1" href="index.html">Fabrizio Castaneda</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+
+    <!-- Local Page Links --> 
+    <div class="justify-content-center order-2" id="collapsingNavbar">
+        <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle px-5" href="#" id="navbardrop" data-toggle="dropdown">Projects</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Electric Skateboard</a>
+                    <a class="dropdown-item" href="gaming-pc.html">Gaming PC</a>
+                    <a class="dropdown-item" href="#">FPV Drone</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle px-5" href="#" id="navbardrop" data-toggle="dropdown">Interests</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="vinyl.html">Vinyl Collection</a>
+                    <a class="dropdown-item" href="bookshelf.html">Bookshelf</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link px-5" href="#">Resume</a>
+            </li>
+        </ul>
+    </div>
+    <span class="navbar-text small text-truncate mt-1 w-50 text-right order-1 order-md-last">Thanks for stopping by!</span>
+</nav>
+
+<!-- Title Banner (maybe make a gif montage -->
+<div class="jumbotron jumbotron-fluid">
+    <div class="container justify-content-center">
+      <h1 class="display-2 text-center">Gaming PC</h1>
+      <h2 class="display-4 text-center">I swear it's for school</h2>
+    </div>
+</div>
+
+<!-- Perhaps add performance specs w/ little animations -->
+
+<!-- Description -->
+<div class="d-flex justify-content-center" id="pc-title-text">
+    <h2>Description:</h2>
+</div>
+<div class="d-flex justify-content-center px-5">
+    <p id="description-text">This is my first PC build and I am very proud of the results. I know it isn't flashy with all those RGB fans and memory, but I prioritized performance given my budget. What isn't included in the parts list is a second hard drive that I salvaged from my old gaming laptop that broke, giving me a total of 2TB. I plan to use this for 3D CAD, machine learning, and gaming.
+
+        The scariest part of this build was installing the CPU fan. Something about compressing my precious CPU by bolting this fan onto the motherboard hurt, but I guess it had to be done for better heat transfer. If I were to do anything differently, I'd opt for a liquid cooler since it would probably be less stressful to install and offer better cooling.
+        
+        Any game recommendations to help me get my money's worth out of this GPU?</p>
+</div>
+
+
+<!-- Components List -->
+<div class="container-fluid">
+    <div class="d-flex justify-content-center" id="pc-title-text">
+        <h2>Components:</h2>
+    </div>
+
+    <!-- CPU -->
+    <div class="container my-5" style="width:80%; height:auto">
+        <div class="row d-flex justify-content-center" data-aos="flip-up">
+            <div class="col-lg-3 px-0">
+                <img src="images/ryzen-7.jpg" style="height:100%; width:100%"></img>
+            </div>
+            <div class="col-lg-6 bg-light text-dark">
+                <h3 class="py-3">CPU</h3>
+                <h5 class="py-3">AMD Ryzen 7 3700X 3.6 GHz 8-Core Processor</h5>
+            </div>
+        </div>
+    </div>
+
+    <!-- CPU Cooler -->
+    <div class="container my-5" style="width:80%; height:auto">
+        <div class="row d-flex justify-content-center" data-aos="flip-up">
+            <div class="col-lg-3 px-0">
+                <img src="images/cpu-cooler.jpg" style="height:100%; width:100%"></img>
+            </div>
+            <div class="col-lg-6 bg-light text-dark">
+                <h3 class="py-3">CPU Cooler</h3>
+                <h5 class="py-3">Cooler Master Hyper 212 EVO 82.9 CFM Sleeve Bearing CPU Cooler</h5>
+            </div>
+        </div>
+    </div>
+
+    <!-- Motherboard -->
+    <div class="container my-5" style="width:80%; height:auto">
+        <div class="row d-flex justify-content-center" data-aos="flip-up">
+            <div class="col-lg-3 px-0">
+                <img src="images/motherboard.jpg" class="py-1" style="height:100%; width:100%"></img>
+            </div>
+            <div class="col-lg-6 bg-light text-dark">
+                <h3 class="py-3">Motherboard</h3>
+                <h5 class="py-3">Asus TUF GAMING X570-PLUS (WI-FI) ATX AM4 Motherboard</h5>
+            </div>
+        </div>
+    </div>
+
+    <!-- Memory -->
+    <div class="container my-5" style="width:80%; height:auto">
+        <div class="row d-flex justify-content-center" data-aos="flip-up">
+            <div class="col-lg-3 px-0">
+                <img src="images/memory.jpg" class="px-1" style="height:100%; width:100%"></img>
+            </div>
+            <div class="col-lg-6 bg-light text-dark">
+                <h3 class="py-3">Memory</h3>
+                <h5 class="py-3">G.Skill Ripjaws V Series 32 GB (2 x 16 GB) DDR4-3200 CL16 Memory</h5>
+            </div>
+        </div>
+    </div>
+
+    <!-- Storage -->
+    <div class="container my-5" style="width:80%; height:auto">
+        <div class="row d-flex justify-content-center" data-aos="flip-up">
+            <div class="col-lg-3 px-0">
+                <img src="images/storage.jpg" style="height:100%; width:100%"></img>
+            </div>
+            <div class="col-lg-6 bg-light text-dark">
+                <h3 class="py-3">Storage</h3>
+                <h5 class="py-3">Samsung 860 Evo 1 TB 2.5" Solid State Drive</h5>
+                <p class="py-3">+ 1TB from an old gaming laptop hard drive</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Video Card -->
+    <div class="container my-5" style="width:80%; height:auto">
+        <div class="row d-flex justify-content-center" data-aos="flip-up">
+            <div class="col-lg-3 px-0">
+                <img src="images/video_card.jpg" style="height:100%; width:100%"></img>
+            </div>
+            <div class="col-lg-6 bg-light text-dark">
+                <h3 class="py-3">Video Card</h3>
+                <h5 class="py-3">Gigabyte GeForce RTX 2070 SUPER 8 GB WINDFORCE OC 3X Video Card</h5>
+            </div>
+        </div>
+    </div>
+
+    <!-- Case -->
+    <div class="container my-5" style="width:80%; height:auto">
+        <div class="row d-flex justify-content-center" data-aos="flip-up">
+            <div class="col-lg-3 px-0">
+                <img src="images/case.jpg" style="height:100%; width:100%"></img>
+            </div>
+            <div class="col-lg-6 bg-light text-dark">
+                <h3 class="py-3">Case</h3>
+                <h5 class="py-3">Fractal Design Meshify C ATX Mid Tower Case</h5>
+            </div>
+        </div>
+    </div>
+
+    <!-- Power Supply -->
+    <div class="container my-5" style="width:80%; height:auto">
+        <div class="row d-flex justify-content-center" data-aos="flip-up">
+            <div class="col-lg-3 px-0">
+                <img src="images/power_supply.jpg" style="height:100%; width:100%"></img>
+            </div>
+            <div class="col-lg-6 bg-light text-dark">
+                <h3 class="py-3">Power Supply</h3>
+                <h5 class="py-3">Corsair RM (2019) 750 W 80+ Gold Certified Fully Modular ATX Power Supply</h5>
+            </div>
+        </div>
+    </div>
+
+    <!-- Operating System -->
+    <div class="container my-5" style="width:80%; height:auto">
+        <div class="row d-flex justify-content-center" data-aos="flip-up">
+            <div class="col-lg-3 px-0">
+                <img src="images/windows-10-education.jpg" style="height:100%; width:100%"></img>
+            </div>
+            <div class="col-lg-6 bg-light text-dark">
+                <h3 class="py-3">Operating System</h3>
+                <h5 class="py-3">Windows 10 Education</h5>
+                <p>Will upgrade to Windows 10 Pro upon graduation</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Game Library -->
+<div class="d-flex justify-content-center" id="pc-title-text">
+    <h2>Game Library:</h2>
+</div>
+<div class="container py-3" id="games">
+    <img src="images/rocket-league.jpg"></img>
+    <img src="images/portal2.png"></img>
+    <img src="images/drl-sim.jpg"></img>
+    <img src="images/gtav.jpg"></img>
+    <img src="images/portal.jpg"></img>
+    <img src="images/battlefieldv.jpg"></img>
+    <img src="images/nba2k20.jpg"></img>
+    <img src="images/helltaker.jpg"></img>
+    <img src="images/payday2.jpg"></img>
+    <img src="images/project-cars2.jpg"></img>
+    <img src="images/mortal-kombat-x.jpg"></img>
+    <img src="images/injustice.jpg"></img>
+    <img src="images/fifa19.jpg"></img>
+    <img src="images/minecraft.jpg"></img>
+    <img src="images/cod_warzone.jpg"></img>
+</div>
+
+<!-- Resources that helped me -->
+<div class="d-flex justify-content-center py-5" id="pc-title-text">
+    <h2>Resources To Help With Your Build:</h2>
+</div>
+<div class="btn-group d-flex justify-content-center pb-5">
+    <a href="https://pcpartpicker.com/" target="_blank" class="btn btn-primary py-3">Choosing Parts</a>
+    <a href="https://www.youtube.com/watch?v=v7MYOpFONCU" target="_blank" class="btn btn-primary py-3">Putting It Together</a>
+    <a href="https://pcpartpicker.com/b/XPFG3C" target="_blank" class="btn btn-primary py-3">Leave A Comment On My Build</a>
+</div>
+
+<!-- Showcase Monitor Build To show what happens when you run out of money (worth it) -->
+
+
+
+<!-- Footer -->
+<div class="d-flex bg-dark container-fluid">
+    <div class="mr-auto">
+        <p class="text-white-50 py-5 px-5 my-0">Copyright © 2020 Fabrizio Castaneda - All Rights Reserved.</p>
+    </div>
+    <div>
+        <a href="https://www.instagram.com/castaneda_fabrizio/" target="_blank" class="fa fa-instagram my-5 mx-4"></a>
+    </div>
+    <div>
+        <a href="mailto:fabriziocastaneda0520@gmail.com" target="_blank" class="fa fa-google my-5 mx-4"></a>
+    </div>
+    <div class="mr-5">
+        <a href="https://www.linkedin.com/in/fabrizio-castaneda" target="_blank" class="fa fa-linkedin my-5 mx-4"></a>
+    </div>
+</div>
+
+ <!-- AOS div animations -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+      duration: 1000,
+      disable: 'mobile'
+  });
+</script>
+
+</body>
+</html>

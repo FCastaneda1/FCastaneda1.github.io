@@ -78,7 +78,17 @@
   line-height: 1.8;
 }
 
-/* Gaming Section Titles Text */
-#pc-title-text {
+/* Section Titles Text */
+#title-text {
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+/* Resume Text */
+#accordian {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+/* Summary Text */
+#summary-text h6{
+  line-height: 1.8;
 }

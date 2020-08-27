@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Resume</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar fixed-top navbar-expand-sm bg-light"> 
+    <!-- Name and Home Page Link -->
+    <div class="d-flex w-50 order-0">
+        <a class="navbar-brand mr-1" href="index.html">Fabrizio Castaneda</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+
+    <!-- Local Page Links --> 
+    <div class="justify-content-center order-2" id="collapsingNavbar">
+        <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle px-5" href="#" id="navbardrop" data-toggle="dropdown">Projects</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Electric Skateboard</a>
+                    <a class="dropdown-item" href="gaming-pc.html">Gaming PC</a>
+                    <a class="dropdown-item" href="fpv-drone.html">FPV Drone</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle px-5" href="#" id="navbardrop" data-toggle="dropdown">Interests</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="vinyl.html">Vinyl Collection</a>
+                    <a class="dropdown-item" href="bookshelf.html">Bookshelf</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link px-5" href="resume.html">Resume</a>
+            </li>
+        </ul>
+    </div>
+    <span class="navbar-text small text-truncate mt-1 w-50 text-right order-1 order-md-last">Thanks for stopping by!</span>
+</nav>
+
+<!-- Summary -->
+<div id="summary-text" class="jumbotron jumbotron-fluid mb-0 pb-3">
+    <div class="container justify-content-center">
+        <div class="row">
+            <div class="col-lg-3">
+                <img src="images/resume/headshot.png" class="rounded-circle" alt="Fabrizio Castaneda" style="height:auto; width:100%;"></img>
+            </div>
+            <div class="col-lg-9">
+                <h6>I am currently a sophomore at UCLA progressing towards a degree in Computer Engineering, and I am working at the UCLA School of Law’s IT Department to supplement my education in computer fundamentals.</h6>
+                <h6>All my life, I have been fascinated by technology. As a toddler, examining how a CD player worked by jamming multiple CDs into it; in middle school, opening up my Playstation 3 (voiding the warranty) to see how it worked; and in high school, playing with Arduinos to make useless boxes and LED arrays.</h6>
+                <h6>It was not long before my curiosity brought me to quantum computing. My passion for hands-on technical work and discovering the unknown is what brought me to this point in my life’s journey. My dream is to make quantum computers more practical for everyday use to give humanity the tools they need for a better tomorrow.</h6>
+                <h6>To get there, I aspire to enter a Master’s program in Quantum Computing and gain in-field experience along the way.</h6>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid row py-5">
+    <!-- Photo of Me -->
+    <div class="col-lg-3">
+        <img src="images/resume/headshot.png" class="rounded" alt="Fabrizio Castaneda" style="height:auto; width:100%;"></img>
+    </div>
+
+    <!-- Resume Details -->
+    <div id="accordion" class="col-lg-9" style="width:100%; height:auto;">
+
+        <div class="card">
+        <div class="card-header">
+            <a class="card-link" data-toggle="collapse" href="#collapseOne">
+            Education
+            </a>
+        </div>
+        <div id="collapseOne" class="collapse show" data-parent="#accordion">
+            <div class="card-body">
+                <h2 class="text-primary"><u>University of California, Los Angeles</u></h2>
+                <h3 class="text-success">Pursuing B.S. Degree in Computer Engineering</h3>
+                <h3 class="text-muted"><small>June 2023 (Expected) &nbsp &nbsp &nbsp GPA: 3.639</small></h3>
+                <h4 class="text-info">Past Courses:</h4>
+                <ul>
+                    <li>Object-Oriented Programming</li>
+                    <li>Intro to Engineering Design: Internet of Things</li>
+                    <li>Data Structures</li>
+                    <li>Physics: Mechanics</li>
+                    <li>Computer Organization (Assembly, Architecture, and OS Fundamentals</li>
+                </ul>
+                <h4 class="text-danger">Current Courses:</h4>
+                <ul>
+                    <li>Physics: Oscillations, Waves, and Electric and Magnetic Fields</li>
+                    <li>Logic Design of Digital Systems</li>
+                </ul>
+
+                <h2><span class="text-primary"><u>Cerritos College</u></span><span class="text-warning"><small> (attended while in high school)</small></span></h2>
+                <h3 class="text-success">Certificate of Achievement in Engineering Design and Production Technology</h3>
+                <h3 class="text-muted"><small>January 2016 - May 2019 &nbsp &nbsp &nbsp GPA: 4.0</small></h3>
+                <h4 class="text-info">Courses:</h4>
+                <ul>
+                    <li>Computer Programming Logic</li>
+                    <li>Mechatronics Integration</li>
+                    <li>Web Page Development</li>
+                    <li>Plastics Technology</li>
+                    <li>Solidworks</li>
+                    <li>Autodesk Inventor</li>
+                    <li>AutoCAD</li>
+                </ul>
+
+                <h2 class="text-primary"><u>Stanford University</u></h2>
+                <h3 class="text-success">Horizon Scholars Summer Program</h3>
+                <h3 class="text-muted"><small>June 2018 - August 2018 &nbsp &nbsp &nbsp GPA: 3.433</small></h3>
+                <h4 class="text-info">Courses:</h4>
+                <ul>
+                    <li>Intro to Making: What is EE</li>
+                </ul>
+                <h4 class="text-danger">Projects:</h4>
+                <ul>
+                    <li>Solar Panel Charger</li>
+                    <li>AM/FM Radio</li>
+                    <li>Electrocardiogram</li>
+                </ul>
+
+            </div>
+        </div>
+        </div>
+    
+        <div class="card">
+        <div class="card-header">
+            <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+            Skills
+            </a>
+        </div>
+        <div id="collapseTwo" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+                <h3 class="text-danger">Computer Skills:</h3>
+                <ul>
+                    <li>C++</li>
+                    <li>HTML/CSS/Bootstrap</li>
+                    <li>Linux (Basic)</li>
+                    <li>Github (Basic)</li>
+                    <li>Solidworks</li>
+                    <li>Autodesk Inventor</li>
+                    <li>AutoCAD</li>
+                    <li>Photoshop</li>
+                    <li>Adobe Illustrator</li>
+                </ul>
+
+                <h3 class="text-warning">Laboratory Skills:</h3>
+                <ul>
+                    <li>Circuitry (Basic Schematics + Soldering)</li>
+                    <li>3D-Printing</li>
+                    <li>Laser-Cutting</li>
+                    <li>Injection-Molding</li>
+                    <li>Vacuum-Forming</li>
+                    <li>Rubber-Molding</li>
+                </ul>
+
+                <h3 class="text-success">Language Skills:</h3>
+                <ul>
+                    <li>Spanish (Basic Communication)</li>
+                </ul>
+            </div>
+        </div>
+        </div>
+    
+        <div class="card">
+        <div class="card-header">
+            <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+            Projects
+            </a>
+        </div>
+        <div id="collapseThree" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+                <h3 class="text-info"><u>Formula Drone</u></h3>
+                <ul>
+                    <li>FPV Drone for recreational flying (working towards getting commercial license)</li>
+                    <li>Current Project: Custom-built electric skateboard that can handle the steep hills of UCLA and maintain high speeds</li>
+                </ul>
+
+                <h3 class="text-warning"><u>Gaming PC</u></h3>
+                <ul>
+                    <li>Made to handle my 3D CAD models and machine learning projects with ease</li>
+                </ul>
+            </div>
+        </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" href="#collapseFour">
+                Experience
+                </a>
+            </div>
+            <div id="collapseFour" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                <h2 class="text-primary"><u>UCLA School of Law</u></h2>
+                <h3 class="text-success">LawNet IT Student Technician (Part-Time)</h3>
+                <h3 class="text-muted"><small>July 2019 - Present</small></h3>
+                <ul>
+                    <li>Communicate with students/staff to clearly identify a computer’s problem and iterate
+                        through possible solutions while describing the process to your client (consult senior techs)</li>
+                    <li>Maintain the computer lab by disposing of E-waste, keeping the supplies desk stocked, and
+                        ensuring lab computers and printers are in working order</li>
+                </ul>
+                </div>
+            </div>
+         </div>
+
+         <div class="card">
+            <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" href="#collapseFive">
+                Professional Organizations
+                </a>
+            </div>
+            <div id="collapseFive" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                    <h3 class="text-danger">Center for Excellence in Engineering and Diversity (CEED)</h3>
+                    <h3 class="text-info">Society of Latino Engineers and Scientists (SOLES) a SHPE organization</h3>
+                    <ul>
+                        <li><i>Ciencias Director 20/21</i>: Host Noche De Ciencias for a school in need</li>
+                    </ul>
+                </div>
+            </div>
+         </div>
+
+         <div class="card">
+            <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" href="#collapseSix">
+                Honors/ Awards
+                </a>
+            </div>
+            <div id="collapseSix" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                    <h3 class="text-warning">Lynwood High School Valedictorian, 2019</h3>
+                    <h3 class="text-success">AP Scholar with Distinction, 2019 & 2018</h3>
+                    <h3 class="text-primary">Autodesk Inventor Certified User, 2017</h3>
+                    <h3 class="text-danger">Solidworks Associate Certification, 2016</h3>
+                </div>
+            </div>
+         </div>
+
+         <div class="card">
+            <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" href="#collapseSeven">
+                Personal
+                </a>
+            </div>
+            <div id="collapseSeven" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                <h3 class="text-info">U.S. Citizen</h3>
+                <h3 class="text-success">Willing to Relocate</h3>
+                </div>
+            </div>
+         </div>
+    
+    </div>
+</div>
+
+<!-- Footer -->
+<div class="d-flex bg-dark container-fluid" style="position:sticky">
+    <div class="mr-auto">
+        <p class="text-white-50 py-5 px-5 my-0">Copyright © 2020 Fabrizio Castaneda - All Rights Reserved.</p>
+    </div>
+    <div>
+        <a href="https://www.instagram.com/castaneda_fabrizio/" target="_blank" class="fa fa-instagram my-5 mx-4"></a>
+    </div>
+    <div>
+        <a href="mailto:fabriziocastaneda0520@gmail.com" target="_blank" class="fa fa-google my-5 mx-4"></a>
+    </div>
+    <div class="mr-5">
+        <a href="https://www.linkedin.com/in/fabrizio-castaneda" target="_blank" class="fa fa-linkedin my-5 mx-4"></a>
+    </div>
+</div>
+
+
+ <!-- AOS div animations -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+      duration: 1000,
+      disable: 'mobile'
+  });
+</script>
+
+</body>
+</html>

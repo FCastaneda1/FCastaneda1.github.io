@@ -1,3 +1,7 @@
+body, html {
+  height: 100%;
+}
+
 /* -- Social Media Icons -- */
 .fa {
     font-size: 22px;
@@ -76,6 +80,7 @@
 /* Description Text */
 #description-text {
   line-height: 1.8;
+  text-align: center;
 }
 
 /* Section Titles Text */
@@ -91,4 +96,25 @@
 /* Summary Text */
 #summary-text h6{
   line-height: 1.8;
+}
+
+/* Project Specs Text */
+#specs {
+  text-align: center;
+}
+
+/* Coming Soon Page */
+.bgimg {
+  background-image: url("/images/coming-soon/road.jpg");
+  height: 100%;
+  font-size: 25px;
+}
+
+/* Position text in the middle */
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }

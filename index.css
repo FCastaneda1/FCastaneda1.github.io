@@ -93,10 +93,6 @@ body, html {
   height: 200px;
 }
 
-#games::-webkit-scrollbar {
-  display: none;
-}
-
 /* Description Text */
 #description-text {
   line-height: 1.8;

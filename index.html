@@ -4,139 +4,39 @@
     <title>Fabrizio Castaneda</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"> 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="stylesheet" href="index.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+        }
+        .full-screen-image {
+            background-image: url('images/valhalla.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100%;
+            width: 100%;
+        }
+        .text-overlay {
+            position: absolute;
+            top: 85%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 40px;
+            font-family: 'Arial', sans-serif;
+            font-weight: bold;
+            text-align: center;
+            text-shadow: -5px 3px 8px black;
+            z-index: 1;
+        }
+    </style>
 </head>
 <body>
 
-<nav class="navbar fixed-top navbar-expand-sm bg-light navbar-light"> 
-    <!-- Name and Home Page Link -->
-    <div class="d-flex order-0">
-        <a class="navbar-brand mr-1" href="index.html">Fabrizio Castaneda</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-    </div>
-
-    <!-- Local Page Links --> 
-    <div class="collapse navbar-collapse justify-content-center order-2" id="collapsibleNavbar">
-        <ul class="navbar-nav">
-            <li class="nav-item dropdown active">
-                <a class="nav-link dropdown-toggle px-5 text-center" href="#" id="navbardrop" data-toggle="dropdown">Projects</a>
-                <div class="dropdown-menu">
-                    <a class="dropdown-item text-center" href="esk8.html">Electric Skateboard</a>
-                    <a class="dropdown-item text-center" href="gaming-pc.html">Gaming PC</a>
-                    <a class="dropdown-item text-center" href="fpv-drone.html">FPV Drone</a>
-                </div>
-            </li>
-            <li class="nav-item dropdown active">
-                <a class="nav-link dropdown-toggle px-5 text-center" href="#" id="navbardrop" data-toggle="dropdown">Interests</a>
-                <div class="dropdown-menu">
-                    <a class="dropdown-item text-center" href="vinyl.html">Vinyl Collection</a>
-                    <a class="dropdown-item text-center" href="bookshelf.html">Bookshelf</a>
-                </div>
-            </li>
-            <li class="nav-item active">
-                <a class="nav-link px-5 text-center" href="resume.html">Resume</a>
-            </li>
-        </ul>
-    </div>
-    <span class="navbar-text small text-right mt-1 order-1 order-md-last" style="overflow-wrap: break-word;">Welcome!</span>
-</nav>
-
-<!-- Main Home Photo -->
-<div>
-    <img class="img-fluid" style="width: 100%; margin-top: 50px;" src="images/home-page/ucla-main.JPEG" alt="Welcome!">
-</div>
-
-<!-- UCLA Section -->
-<div class="container-fluid" style="margin-top:2px; overflow-x:hidden;">
-    <div class="row">
-      <div class="col-lg-9 px-0" data-aos="fade-right" data-aos-offset="200">
-        <img class="img-fluid" src="images/home-page/ucla-engineering1.JPEG" alt="UCLA">
-      </div>
-      <div class="col-lg-3 justify-content-center" style="align-items:center; display:flex" data-aos="fade-left" data-aos-offset="300">
-        <h2 class="text-center" id="side-text">My name is Fabrizio Castaneda, and I'm a 4th year Computer Engineering Major at UCLA with a passion for quantum computing, alternative-fuel vehicles, and AI.</h2>
-      </div>
-    </div>
-</div>
-
-<!-- Beliefs Section -->
-<div class="container-fluid" style="margin-top:2px; overflow-x:hidden;">
-    <div class="row flex-column-reverse flex-md-row">
-        <div class="col-lg-3 justify-content-center" style="align-items:center; display:flex" data-aos="fade-right" data-aos-offset="300">
-            <h2 class="text-center" id="side-text">I believe that a world independent of fossil fuels and supported by quantum algorithms is a world that promises a better tomorrow</h2>
-        </div>
-        <div class="col-lg-9 px-0" data-aos="fade-left" data-aos-offset="200">
-          <img class="img-fluid" src="images/home-page/ev1.jpg" alt="Electric Vehicles">
-        </div>
-    </div>
-</div>
-
-<!-- Professional Section -->
-<div class="container-fluid" style="margin-top:2px; overflow-x:hidden;">
-    <div class="row">
-      <div class="col-lg-9 px-0" data-aos="fade-right" data-aos-offset="200">
-        <img class="img-fluid" src="images/home-page/school-of-law.JPEG" alt="UCLA School of Law">
-      </div>
-      <div class="col-lg-3 justify-content-center" style="align-items:center; display:flex" data-aos="fade-left" data-aos-offset="300">
-        <h2 class="text-center" id="side-text">To supplement my education, I work at the UCLA School of Law as a Student Technician where I help staff, faculty, and students with their computing needs</h2>
-      </div>
-    </div>
-</div>
-
-<!-- Call to Action -->
-<div class="container-fluid" style="margin-top:2px; overflow-x:hidden;">
-    <div class="row flex-column-reverse flex-md-row">
-        <div class="col-lg-3 justify-content-center" style="align-items:center; display:flex" data-aos="fade-right" data-aos-offset="300">
-            <h2 class="text-center" id="side-text">If you take anything from this website, I hope it inspires you to take your passion and turn into something that benefits others and makes the world a better place</h2>
-        </div>
-      <div class="col-lg-9 px-0" data-aos="fade-left" data-aos-offset="200">
-        <img class="img-fluid" src="images/home-page/helping-hand.jpg" alt="ESK8 Test">
-      </div>
-    </div>
-</div>
-
-<!-- Thank You Section -->
-<div class="container-fluid" style="margin-top:2px; overflow-x:hidden;">
-    <div class="row">
-      <div class="col-lg-9 px-0" data-aos="fade-right" data-aos-offset="200">
-        <img class="img-fluid" src="images/home-page/CEED.jpg" alt="Center for Excellence in Engineering and Diversity">
-      </div>
-      <div class="col-lg-3 justify-content-center" style="align-items:center; display:flex" data-aos="fade-left" data-aos-offset="300">
-        <h2 class="text-center" id="side-text">Of course, I'd like to thank everyone I have come across in my life because you all in some way have set me on the path I'm on today</h2>
-      </div>
-    </div>
-</div>
-
-<!-- Footer -->
-<div class="d-flex bg-dark container-fluid">
-    <div class="row" style="width: 100%;">
-        <div class="col-lg-6 text-center">
-            <p class="text-white-50 py-5 px-5 my-0" id="footer">Copyright © 2022 Fabrizio Castaneda - All Rights Reserved.</p>
-        </div>
-        <div class="col-lg-6 text-center">
-            <a href="https://www.instagram.com/castaneda_fabrizio/" target="_blank" class="fa fa-instagram my-5 mx-4"></a>
-            <a href="mailto:fabriziocastaneda0520@gmail.com" target="_blank" class="fa fa-google my-5 mx-4"></a>
-            <a href="https://www.linkedin.com/in/fabrizio-castaneda" target="_blank" class="fa fa-linkedin my-5 mx-4"></a>
-        </div>
-    </div>
-</div>
-
-
- <!-- AOS div animations -->
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script>
-  AOS.init({
-      duration: 1000,
-      disable: 'mobile'
-  });
-</script>
+    <!-- Main -->
+    <div class="full-screen-image"></div>
+    <div class="text-overlay">Under Construction</div>
 
 </body>
 </html>
